@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Switch, Link } from "react-router-dom";
+// import { Switch, Link } from "react-router-dom";
 
 function Navbar() {
   return (
