@@ -37,45 +37,49 @@ function Navbar() {
               <span className="icon-bar"></span>
             </button>
           </div>
-          <a className="navbar-brand" href="#">
+          <a className="navbar-brand" href="heyshrav.me">
             Brand
           </a>
           <div className="collapse navbar-collapse" id="navbar-collapse-1">
             <ul className="nav navbar-nav navbar-left">
               <li>
-                <a href="#">Menu</a>
+                <a href="heyshrav.me">Menu</a>
               </li>
               <li>
-                <a href="#">Menu</a>
+                <a href="heyshrav.me">Menu</a>
               </li>
             </ul>
             <ul className="nav navbar-nav navbar-right">
               <li>
-                <a href="#">Link</a>
+                <a href="heyshrav.me">Link</a>
               </li>
               <li>
-                <a href="#">Link</a>
+                <a href="heyshrav.me">Link</a>
               </li>
               <li>
-                <a href="#">Link</a>
+                <a href="heyshrav.me">Link</a>
               </li>
               <li className="dropdown">
-                <a href="#" className="dropdown-toggle" data-toggle="dropdown">
+                <a
+                  href="heyshrav.me"
+                  className="dropdown-toggle"
+                  data-toggle="dropdown"
+                >
                   Dropdown <b className="caret"></b>
                 </a>
                 <ul className="dropdown-menu">
                   <li>
-                    <a href="#">Action</a>
+                    <a href="heyshrav.me">Action</a>
                   </li>
                   <li>
-                    <a href="#">Another action</a>
+                    <a href="heyshrav.me">Another action</a>
                   </li>
                   <li>
-                    <a href="#">Something else here</a>
+                    <a href="heyshrav.me">Something else here</a>
                   </li>
                   <li className="divider"></li>
                   <li>
-                    <a href="#">Separated link</a>
+                    <a href="heyshrav.me">Separated link</a>
                   </li>
                 </ul>
               </li>
