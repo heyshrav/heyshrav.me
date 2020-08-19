@@ -7,7 +7,6 @@ function Home() {
     <div>
       <Grid
         container
-        
         lg={12}
         direction="column"
         justify="center"
@@ -114,6 +113,11 @@ function Home() {
               </li>
               <li>
                 <a href="https://instagram.com/heyshrav">Instagram</a>
+              </li>
+              <li>
+                <a href="https://heyshrav.me/assets/BS Shravan - minimalResume.pdf">
+                  Minimal Resume Design
+                </a>
               </li>
             </ul>
           </div>
