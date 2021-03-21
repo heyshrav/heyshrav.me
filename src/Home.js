@@ -36,10 +36,10 @@ function Home() {
           <div className="row">
 
             <div className="col">
-              <div className="hero_text">Hello, my name's Shravan.<br />I am a UI Designer.</div>
+              <div className="hero_text text-wrap">Hello, my name's Shravan.<br />I am a UI Designer.</div>
             </div>
-            <div className="col d-inline-flex justify-content-end">
-              <img src="/assets/shravanbhat.jpg" className="img-fluid" alt="img" />
+            <div className="col">
+              <img src="/assets/shravanbhat.jpg" alt="img" className="img-fluid float-end" width="400px" />
             </div>
 
           </div>
