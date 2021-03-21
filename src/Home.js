@@ -38,7 +38,7 @@ function Home() {
             <div className="col">
               <div className="hero_text">Hello, my name's Shravan.<br />I am a UI Designer.</div>
             </div>
-            <div className="col d-flex justify-content-end">
+            <div className="col d-inline-flex justify-content-end">
               <img src="/assets/shravanbhat.jpg" className="img-fluid" alt="img" />
             </div>
 
