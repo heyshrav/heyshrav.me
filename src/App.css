@@ -12,213 +12,56 @@
 
 * {
   margin: 0;
-  /* 
-  padding: 0;
-  background-color: #f6f5f0;
-  background-color: #ebecf1; */
 }
-
 .bg {
-  position: fixed;
-  z-index: -1;
-  top: -50%;
-  left: -50%;
-  right: -50%;
-  bottom: -50%;
-  width: 200%;
-  height: 200vh;
-  background: transparent
-    url("http://assets.iceable.com/img/noise-transparent.png") repeat 0 0;
-  background-repeat: repeat;
-  animation: bg-animation 0.2s infinite;
-  opacity: 0.6;
-  visibility: visible;
+  background: url("https://images.unsplash.com/photo-1533134957610-83185986f38b?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80")
+     scroll;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(6rem);
+  width: 100vw;
+  opacity: 0.1;
+  position: absolute;
+  height: 100vh;
 }
 
-@keyframes bg-animation {
-  0% {
-    transform: translate(0, 0);
-  }
-  10% {
-    transform: translate(-5%, -5%);
-  }
-  20% {
-    transform: translate(-10%, 5%);
-  }
-  30% {
-    transform: translate(5%, -10%);
-  }
-  40% {
-    transform: translate(-5%, 15%);
-  }
-  50% {
-    transform: translate(-10%, 5%);
-  }
-  60% {
-    transform: translate(15%, 0);
-  }
-  70% {
-    transform: translate(0, 10%);
-  }
-  80% {
-    transform: translate(-15%, 0);
-  }
-  90% {
-    transform: translate(10%, 5%);
-  }
-  100% {
-    transform: translate(5%, 0);
-  }
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  color: #0c1821;
-  font-family: "B612";
-}
-span {
-  color: #fd6e6e;
-}
-
-.navLink a {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  font-size: 1.2rem;
-  padding-right: 20px;
-  font-weight: 600;
-  font-variant-caps: all-petite-caps;
-}
-
-.navLink a:hover {
-  text-decoration: none;
-}
-
-.logo {
-  padding-left: 1.5rem;
-}
-
-.heroComponent {
-  padding: 25px;
-}
-.heroComponent h3 {
-  font-size: 3rem;
-}
-.heroComponent p {
-  font-size: 0.9rem;
-  line-height: 1.3rem;
-  max-width: 76%;
-  font-family: "Raleway";
-}
-.heroComponent h1 {
-  font-size: 4.5rem;
-  font-weight: 100;
-  font-family: "Playfair Display";
-}
-.heroComponent span {
+.navbar-brand span {
+  font-size: 30px;
+  color: #000;
   font-weight: 700;
-
-  color: #fd6e6e;
+  padding-left: 0.4rem;
 }
 
-.wordCarousel div {
-  overflow: hidden;
-  position: relative;
-  float: right;
-  height: 85px;
-  padding-top: 10px;
-  margin-top: -10px;
-}
-.wordCarousel div li {
+.navbar-nav a span {
   font-weight: 700;
-  padding: 0 10px;
-  font-family: "Raleway";
-  height: 45px;
-  margin-bottom: 45px;
-  display: block;
-}
-.flip3 {
-  -webkit-animation: flip3 8s cubic-bezier(0.23, 1, 0.32, 1.2) infinite;
-  animation: flip3 8s cubic-bezier(0.23, 1, 0.32, 1.2) infinite;
+  padding-right: 0.5rem;
+  padding-left: 0.2rem;
 }
 
-@-webkit-keyframes flip3 {
-  0% {
-    margin-top: -270px;
-  }
-  5% {
-    margin-top: -180px;
-  }
-  33% {
-    margin-top: -180px;
-  }
-  38% {
-    margin-top: -90px;
-  }
-  66% {
-    margin-top: -90px;
-  }
-  71% {
-    margin-top: 0px;
-  }
-  99.99% {
-    margin-top: 0px;
-  }
-  100% {
-    margin-top: -270px;
-  }
+.nav-link {
+  color: #7e7e7e !important;
 }
-@keyframes flip3 {
-  0% {
-    margin-top: -270px;
-  }
-  5% {
-    margin-top: -180px;
-  }
-  33% {
-    margin-top: -180px;
-  }
-  38% {
-    margin-top: -90px;
-  }
-  66% {
-    margin-top: -90px;
-  }
-  71% {
-    margin-top: 0px;
-  }
-  99.99% {
-    margin-top: 0px;
-  }
-  100% {
-    margin-top: -270px;
-  }
+.nav-link:hover {
+  color: #181818 !important;
 }
 
-.heroSection1 p {
-  text-align: justify;
+.navbar-toggler {
+  border-color: #181818;
+  
 }
 
-.imgResponsive {
-  width: 100%;
-  max-width: 350px;
-  height: auto;
+.hero_section {
+  margin-top: 5em;
+  
+}
+.hero_section img {
+  
   border-radius: 50%;
+  box-shadow: #7e7e7e 0px 2px 5px;
 }
-
-.portfolioSec {
-  margin-top: 2rem;
-background-color: #ffffff;
-  margin-bottom: 0rem;
-  height:100vh;
-}
-.portfolioSec h2 {
-  color: #cccccc;
-  font-size: 3rem;
-  text-align: center;
-  font-family: "Montserrat";
+.hero_text {
+  margin-bottom: 1em;
+  font-weight: 700;
+  font-size: 5em;
+  line-height: 1.1em;
 }

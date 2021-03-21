@@ -1,11 +1,11 @@
-body {
+/* body {
   background-color: #ffffff;
   color: #131313;
   font-family: "Montserrat";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
-}
+} */
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
@@ -33,5 +33,4 @@ h5,
 h6,
 p {
   color: #0c1821;
-  font-family: "B612";
 }
