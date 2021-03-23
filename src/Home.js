@@ -34,7 +34,7 @@ function Home() {
               <div className="hero_info text-center">a <b>Designer</b> and <b>Frontend Developer</b> in Bangalore.</div>
             </div>
             <div className="hero_button container">
-            <a href="#" className="btn" role="button">Connect with me</a>
+            <a href="/" className="btn" role="button">Connect with me</a>
             </div>
           </div>
 
