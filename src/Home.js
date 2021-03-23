@@ -29,7 +29,7 @@ function Home() {
             <div className="hero_text">
               <span>Hey, I'm Shravan</span>
               <div className="text-center text-wrap">
-                Building Websites, Brands and User Experience.
+                Building Websites, Brands and User Experience. blah blah blah!
               </div>
               <div className="hero_info text-center">a <b>Designer</b> and <b>Frontend Developer</b> in Bangalore.</div>
             </div>
