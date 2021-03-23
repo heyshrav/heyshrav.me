@@ -45,14 +45,21 @@
      fixed;
   background-repeat: repeat;
   background-size: cover;
-  filter: blur(3rem);
+  filter: blur(5rem);
   width: 100%;
   opacity: 0.3;
   z-index: -1;
   position: absolute;
   height: 100vh;
 }
+.bg_vid {
+  position:fixed;
+  z-index: -3;
+  filter: blur(2.5rem);
+  width: 100%;
+  opacity: 0.5;
 
+}
 .navbar-brand span {
   font-size: 30px;
   color: #000;
@@ -173,5 +180,9 @@
   }
   .hero_info {
     font-size: 50%;
+  }
+  .bg_vid {
+    
+  transform:  scale(2.5);
   }
 }
