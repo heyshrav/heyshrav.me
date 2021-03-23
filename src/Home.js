@@ -4,8 +4,8 @@ function Home() {
   return (
     <div>
 
-      <div class="topNav container">
-        <nav class="navbar navbar-expand-lg ">
+      <div class="container">
+        <nav class="topNav navbar navbar-expand-lg ">
           <div class="container-fluid">
             <a class="navbar-brand" href="/">
               <img src="assets/logo_brand.svg" alt="" width="40" class="d-inline-block align-bottom" />
@@ -33,13 +33,14 @@ function Home() {
 
       <section className="hero_section">
         <div className="container">
-          <div className="row">
+          <div className="text-center">
+            <img src="/assets/shravanbhat.jpg" alt="img" className="img-fluid " width="150px" />
 
-            <div className="col">
-              <div className="hero_text text-wrap">Hello, my name's Shravan.<br />I am a UI Designer.</div>
-            </div>
-            <div className="col">
-              <img src="/assets/shravanbhat.jpg" alt="img" className="img-fluid float-end" width="400px" />
+            <div className="hero_text">
+              <span>Hi, I'm Shravan!  </span>
+              <div className="text-center text-wrap">
+                Building Websites, Brands and User Experience.
+              </div>
             </div>
 
           </div>
