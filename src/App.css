@@ -43,11 +43,12 @@
 .bg {
   background: url("https://images.unsplash.com/photo-1533134957610-83185986f38b?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80")
      fixed;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-size: cover;
   filter: blur(3rem);
-  width: 100vw;
-  opacity: 0.1;
+  width: 100%;
+  opacity: 0.3;
+  z-index: -1;
   position: absolute;
   height: 100vh;
 }
@@ -87,7 +88,7 @@
   
 }
 .hero_section img {
-  border-radius: 50%;
+  border-radius: 120px;
 }
 
 .hero_text span {
@@ -131,7 +132,28 @@
   font-weight: 800;
 
 }
-
+.hero_button {
+  margin-top: 4em;
+  margin-bottom: 4em;
+  
+}
+.hero_button a {
+  text-decoration: none;
+  font-size: 1.3em;
+  background-color: #000;
+  padding: 0.5em;
+  border-radius: 100px;
+  padding-left: 2em;
+  padding-right: 2em;
+  
+  border: 2px dotted #000;
+  color: rgb(235, 235, 235);
+}
+.hero_button a:hover {
+  background-color: rgb(255, 255, 255);
+  border: 2px dotted #000;
+  color: rgb(48, 48, 48);
+}
 @media only screen and (max-width: 600px) {
 
   .hero_section {

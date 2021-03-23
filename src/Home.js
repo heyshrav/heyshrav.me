@@ -24,16 +24,18 @@ function Home() {
       <section className="hero_section">
         <div className="container">
           <div className="text-center">
-            <img src="/assets/shravanbhat.jpg" alt="img" className="img-fluid " width="150px" />
+            <img src="/assets/images/hero_img_3.png" alt="img" className="img-fluid " width="220px" />
 
             <div className="hero_text">
               <span>Hey, I'm Shravan</span>
               <div className="text-center text-wrap">
-                Building Websites, Brands and User Experience. blah blah blah!
+                Building Websites, Brands and User Experience. 
               </div>
               <div className="hero_info text-center">a <b>Designer</b> and <b>Frontend Developer</b> in Bangalore.</div>
             </div>
-
+            <div className="hero_button container">
+            <a href="#" className="btn" role="button">Connect with me</a>
+            </div>
           </div>
 
         </div>
