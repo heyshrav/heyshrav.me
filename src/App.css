@@ -59,17 +59,22 @@
   padding-left: 0.4rem;
 }
 
+
+
 .navbar-nav a span {
   font-weight: 700;
-  padding-right: 0.5rem;
-  padding-left: 0.2rem;
+  padding: 2px 6px 4px 5px;
+ 
+  margin-right: 1rem;
+  border: 2px dotted rgb(145, 145, 145);
+  border-radius: 50%;
 }
 
 .nav-link {
-  color: #7e7e7e !important;
+  color: #838383 ;
 }
 .nav-link:hover {
-  color: #181818 !important;
+  color: #181818 ;
 }
 
 .navbar-toggler {
@@ -86,25 +91,26 @@
 }
 
 .hero_text span {
-  font-size: 2rem;
+  font-size: 1.8rem;
   margin: auto;
-  font-weight: 600;
+  font-family: Montserrat;
+  font-weight: 700;
   color: #252525;
 }
 
 .hero_text span::after {
   content: " ";
   background-image: url(/assets/images/hero_emoji.png);
-  background-size: 28px 28px;
+  background-size: 25px 25px;
   display: inline-block;
-  width: 28px;
-  height: 28px;
+  width: 25px;
+  height: 25px;
 }
 
 .hero_text {
   margin-bottom: 1em;
   font-weight: 700;
-  margin-top: 2em;
+  margin-top: 3em;
   font-family: custFont1;
   font-size: 4em;
   color: rgb(0, 0, 0);
@@ -113,16 +119,37 @@
   line-height: 1.2em;
 }
 
+.hero_info {
+  font-weight: 300;
+  font-size: 0.4em ;
+  font-family: custFont1;
+  line-height: normal;
+  margin-top: 1.2em;
+}
+
+.hero_info b {
+  font-weight: 800;
+
+}
 
 @media only screen and (max-width: 600px) {
 
   .hero_section {
-    font-size: 60%;
+    width: 100%;
+    
+    font-size: 50%;
   }
   .hero_text span {
-    font-size: 70%;
+    
+    font-size: 60%;
+  }
+  .hero_text div {
+    margin-top: 1rem;
   }
   .hero_text {
     width: 100%;
+  }
+  .hero_info {
+    font-size: 50%;
   }
 }
