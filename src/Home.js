@@ -24,20 +24,29 @@ function Home() {
       <section className="hero_section">
         <div className="container">
           <div className="text-center">
-            <img src="/assets/images/hero_img_3.png" alt="img" className="img-fluid " width="220px" />
+            <img src="/assets/images/hero_img_2.png" alt="img" className="img-fluid " width="180px" />
 
             <div className="hero_text">
               <span>Hey, I'm Shravan</span>
               <div className="text-center text-wrap">
-                Building Websites, Brands and User Experience. 
+                Building Websites, Brands and User Experience.
               </div>
               <div className="hero_info text-center">a <b>Designer</b> and <b>Frontend Developer</b> in Bangalore.</div>
             </div>
             <div className="hero_button container">
-            <a href="/" className="btn" role="button">Connect with me</a>
+              <a href="/" className="btn" role="button">Connect with me</a>
+            </div>
+            <div className="hero_scroll">
+              <div className="scroll mx-auto"><a href="#section2">scroll</a></div>
             </div>
           </div>
+        </div>
 
+      </section>
+
+      <section id="section2">
+        <div className="container">
+          <h2 className="mx-auto">Howdy?</h2>
         </div>
       </section>
 

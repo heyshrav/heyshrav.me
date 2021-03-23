@@ -34,7 +34,9 @@
   font-weight: 700;
 }
 
-
+html {
+  scroll-behavior: smooth;
+}
 
 * {
   margin: 0;
@@ -45,9 +47,9 @@
      fixed;
   background-repeat: repeat;
   background-size: cover;
-  filter: blur(5rem);
+  filter: blur(4rem);
   width: 100%;
-  opacity: 0.3;
+  opacity: 0.4;
   z-index: -1;
   position: absolute;
   height: 100vh;
@@ -55,10 +57,9 @@
 .bg_vid {
   position:fixed;
   z-index: -3;
-  filter: blur(2.5rem);
+  filter: blur(4rem);
   width: 100%;
-  opacity: 0.5;
-
+  opacity: 0.3;
 }
 .navbar-brand span {
   font-size: 30px;
@@ -95,7 +96,7 @@
   
 }
 .hero_section img {
-  border-radius: 120px;
+  border-radius: 100px;
 }
 
 .hero_text span {
@@ -140,8 +141,8 @@
 
 }
 .hero_button {
-  margin-top: 4em;
-  margin-bottom: 4em;
+  margin-top: 2em;
+  margin-bottom: 2em;
   
 }
 .hero_button a {
@@ -161,6 +162,48 @@
   border: 2px dotted #000;
   color: rgb(48, 48, 48);
 }
+
+.hero_scroll {
+  margin-bottom: 100px;
+}
+.scroll {
+  width: 35px;
+  height: 35px;
+  border: 1px solid #333;
+  border-radius: 50%;
+  position: relative;
+  animation: down 1.5s infinite;
+  -webkit-animation: down 1.5s infinite;
+}
+.scroll::before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 11px;
+  width: 11px;
+  height: 11px;
+  border-left: 2px solid #333;
+  border-bottom: 2px solid #333;
+  transform: rotate(-45deg);
+}
+
+.hero_scroll a {
+  padding: 4px 18px 10px 0px;
+  border-radius: 40px;
+  vertical-align: middle;
+  z-index: 4;
+  color:transparent;
+}
+
+
+
+#section2 {
+  width: 100%;
+  background-color: #fff;
+  height: 400px;
+}
+
+
 @media only screen and (max-width: 600px) {
 
   .hero_section {
