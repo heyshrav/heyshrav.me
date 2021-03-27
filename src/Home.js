@@ -16,19 +16,23 @@ function Home() {
 
               <div class="navbar-nav ">
                 <a class="nav-link " aria-current="page" href="/" data-bs-toggle="modal" data-bs-target="#navigationMenu">
-               <i class="bi bi-list"></i>
+                  <i class="bi bi-list"></i>
                 </a>
               </div>
               <div class="modal fade" id="navigationMenu" tabindex="-1" aria-labelledby="navigationMenu" aria-hidden="true">
                 <div class="modal-dialog modal-fullscreen ">
                   <div class="modal-content bg-light bg-gradient text-white">
                     <div class="modal-body">
-                    <button type="button" class=" nav-link btn-lg btn " data-bs-dismiss="modal" aria-label="Close">
-                    <i class="bi bi-x-square-fill"></i>
-                    </button>
-        
-                  </div>
-                    
+                      <button type="button" class=" nav-link btn-lg btn " data-bs-dismiss="modal" aria-label="Close">
+                        <i class="bi bi-x-square-fill"></i>
+                      </button>
+
+                    <div className="container ">
+                      <h2 className="text-center text-wrap nav_email col">heyshrav@gmail.com</h2>
+                    </div>
+
+                    </div>
+
                   </div>
                 </div>
               </div>

@@ -98,7 +98,12 @@ html {
 .navbar-toggler {
   border-color: #181818;
 }
-
+.nav_email {
+  font-size: 4rem;
+  font-weight: 800;
+  margin-top: 10rem;
+  font-family: custFont1;
+}
 .hero_section {
   margin-top: 50px;
 }
