@@ -1,4 +1,4 @@
-## heyshrav.me Portfolio src+build files <br/>
+## heyshrav.com Portfolio src+build files <br/>
 
 You can find the portoflio live and running on https://heyshrav.me
 
