@@ -19,12 +19,14 @@ function AboutSection() {
                                         Open Résumé
                                     </div>
                                 </a>
-                                <a className="about__card section__card">
+                                <span class="d-inline-block " tabindex="0" data-bs-toggle="tooltip" title="Disabled tooltip">
+                                <button className=" btn about__card section__card" disabled>
                                     <i class="bi bi-file-text-fill"></i>
-                                    <div className="fs-6  ">
+                                    <div className="fs-6">
                                         Read blog
                                     </div>
-                                </a>
+                                </button>
+                                </span>
                             </div>
 
                         </div>
