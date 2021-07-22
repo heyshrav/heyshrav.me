@@ -78,10 +78,10 @@ body {
  
 
 .header__masthead {
-  font-size: 3.5em;
-  max-width: 50%;
+  font-size: 3.5em; 
   line-height: 105.5%;
   font-weight: 700;
+  max-width: 40%;
 }
 
 .header__subheader {
@@ -149,9 +149,35 @@ text-decoration: none;
 
 }
 
+
+@media all and (min-width: 1025px) and (max-width: 1200px) { 
+  .header__masthead {
+    font-size: 3em; 
+    max-width: 60%;
+  }
+}
+
+@media all and (min-width: 769px) and (max-width: 1024px) { 
+  .header__masthead {
+    font-size: 3em; 
+    max-width: 70%;
+  }
+}
+
+
+
+@media all and (min-width: 481px) and (max-width: 768px) { 
+  .header__masthead {
+    font-size: 2.5em; 
+    max-width: 80%;
+  }
+}
+
+
 @media all and (max-width: 480px) { 
   .header__masthead {
-    font-size: 60%;
+    font-size: 2em; 
+    max-width: 90%;
   }
 }
  

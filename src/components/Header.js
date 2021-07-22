@@ -11,10 +11,11 @@ function Header() {
                 <h4 className="fs-4 m-3">Hey, I'm Shravan
                 </h4>
             </div>
-            <div className="mt-4 header__masthead">
+            <div className="mt-4 mx-auto text-center header__masthead">
                 Building Websites, Brands and User Experience.
             </div>
             <div className="mx-auto mt-4 header__subheader">
+        
                 <div className="fs-5">
                     <div>a <span>Designer</span> and <span>Frontend Developer</span> in Bangalore.</div>
                 </div>
