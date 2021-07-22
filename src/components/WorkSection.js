@@ -13,7 +13,7 @@ function WorkSection() {
                 <div className="container">
                     <div className="row d-flex flex-row justify-content-evenly">
 
-                        <div className="col-md-4 mb-2 section__card d-flex flex-column  align-items-center">
+                        <div className="col-lg-4 mb-2 section__card d-flex flex-column  align-items-center">
                             <div>
                                 <p>Design Projects</p>
                             </div>
@@ -70,7 +70,7 @@ function WorkSection() {
                         </div>
 
 
-                        <div className="col-md-4 mb-2 section__card d-flex flex-column  align-items-center">
+                        <div className="col-lg-4 mb-2 section__card d-flex flex-column  align-items-center">
                             <div>
                                 <p>Web Projects</p>
                             </div>
@@ -140,7 +140,7 @@ function WorkSection() {
                         </div>
 
 
-                        <div className="col-md-4 mb-2 section__card d-flex flex-column  align-items-center">
+                        <div className="col-lg-4 mb-2 section__card d-flex flex-column  align-items-center">
                             <div>
                                 <p>Photography</p>
                             </div>

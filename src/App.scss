@@ -72,8 +72,7 @@ body {
 }
 .header__image {
   border-radius: 40px;
-  width: 150px; 
-  z-index: 9999;
+  width: 150px;  
   @include hoverAnimation;
 }
  
@@ -149,3 +148,10 @@ text-decoration: none;
   font-size: 3em;
 
 }
+
+@media all and (max-width: 480px) { 
+  .header__masthead {
+    font-size: 60%;
+  }
+}
+ 
