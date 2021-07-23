@@ -2,7 +2,7 @@ import React from 'react'
 
 function WorkSection() {
     return (
-        <div className="section mt-4 pt-4">
+        <div className="section mt-5 pt-5">
             <div className="section__header container">
 
                 <h2 className="section__title">
@@ -65,7 +65,7 @@ function WorkSection() {
                                 </svg>
                             </div>
                             <div className="mt-4 mb-2 section__button">
-                                <a href="#">Open</a>
+                                <a href="#">View Projects</a>
                             </div>
                         </div>
 
@@ -135,7 +135,7 @@ function WorkSection() {
 
                             </div>
                             <div className="mt-4 mb-2 section__button">
-                                <a href="#">Open</a>
+                                <a href="#">View Projects</a>
                             </div>
                         </div>
 
@@ -167,7 +167,7 @@ function WorkSection() {
 
                             </div>
                             <div className="mt-4 mb-2 section__button">
-                                <a href="#">Open</a>
+                                <a href="#">View Projects</a>
                             </div>
                         </div>
 

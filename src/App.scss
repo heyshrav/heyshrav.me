@@ -66,7 +66,6 @@ body {
   box-shadow: none;
   border: none;
 }
-
 .header {
   margin-top: 4em;
 }
@@ -120,7 +119,7 @@ body {
 
 .section__card .section__button a {
   border-radius: 40px;
-  padding: 0.7em 5em;
+  padding: 0.7em 3em;
   background-color: $accent;
   color: $bg;
   text-decoration: none;
@@ -131,22 +130,110 @@ body {
   @include hoverAnimation;
 }
 
-.about__card {
-  background-color: $primary;
-  color: $bg;
-  text-decoration: none;
-  padding: 2em 3em;
-  text-align: center;
-}
-.about__card:hover {
-  cursor: pointer;
-  background-color: $accent;
-  color: $bg;
+.about__body {
+  display: flex; 
+  flex-direction: column; 
+  font-size: 1.2em; 
+  line-height: 2em;
 }
 
-.about__card i {
-  font-size: 3em;
+.about__link__link {
+  height: 30px;
+  align-items: center;
+  color: #000;
+  text-decoration: none;
+  display: flex;
+  
 }
+
+.link-flash {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/* Hide extra text */
+.mask {
+  position: relative;
+  padding: 0;
+  height: 20px;
+
+  /*  Remove overflow to see how it works　:) */
+  overflow: hidden;
+}
+
+.link-container {
+  transition: transform 0.4s ease;
+}
+
+.title {
+  display: block; 
+  /*  Set same font-size and line height  */
+  font-size: 20px;
+  line-height: 20px;
+  color: $primary;
+  text-align: left;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  transition: transform 0.4s ease;
+}
+
+.link-title1 {
+  transform-origin: right center;
+}
+
+.link-title2 {
+  transform-origin: left center;
+  transform: rotate(20deg);
+}
+
+.link-icon {
+  position: relative;
+  width: 35px;
+  height: 35px;
+  background: #f8f8ff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+ 
+  overflow: hidden;
+}
+
+.icon {
+  display: block;
+  position: absolute;
+  transition: transform 0.4s ease;
+}
+
+.icon:nth-child(2) {
+  transform: translate(-40px);
+}
+ 
+.about__link__link:hover .link-container {
+  transform: translateY(-20px);
+}
+ 
+.about__link__link:hover .link-title1 {
+  transform: rotate(20deg);
+}
+
+.about__link__link:hover .link-title2 {
+  transform: rotate(0);
+}
+
+/* Move arrows to right */
+.about__link__link:hover .icon:first-child {
+  transform: translate(40px);
+}
+
+.about__link__link:hover .icon:nth-child(2) {
+  transform: translate(0px);
+}
+
 
 .contact__card {
   background-color: $primary;
@@ -154,7 +241,7 @@ body {
     0px 8px 16px -6px rgba(24, 39, 75, 0.08);
   border-radius: 44px;
   margin-bottom: 5em;
-  margin-top: 2em;
+  margin-top: 3em;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -191,9 +278,6 @@ body {
   .contact__button__wrap {
     padding: 1em;
   }
-  .about__card {
-    padding: 2em;
-  }
 }
 
 @media all and (min-width: 769px) and (max-width: 1024px) {
@@ -212,12 +296,7 @@ body {
   .contact__image img {
     display: none;
   }
-  .about__card {
-    padding: 1em 1em; 
-    margin: 2em;
-    border-radius: 30px;
-    margin-left: 0em;
-  }
+
 }
 
 @media all and (min-width: 481px) and (max-width: 768px) {
@@ -239,10 +318,20 @@ body {
     display: none;
   }
   .about__section {
-    padding: 2em;
+    padding: 1em;
   }
-  .about__card {
-    padding: 2em;
+  .about__body {
+    margin-top: 2em;
+  } 
+  .section__title{
+    display: block !important;
+    text-align: center;
+    font-weight: 800;
+    font-size: 2.3em; 
+  }
+  
+  .link-flash {
+    margin-bottom: 4em; 
   }
 }
 
@@ -267,17 +356,16 @@ body {
   .about__section {
     padding: 1.5em;
   }
-
-  .about__card__wrap {
-    display: block;
-  }
-
-  .about__card {
-    padding: 3em 2em; 
-    margin: 1em;  
-    margin-top: -1em; 
-    margin-left: 0em;
-    font-size: 0.7em;
+ .section__title{
+   display: block !important;
+   text-align: center;
+   font-weight: 800;
+   font-size: 2.3em;
+ }
+  .about__body {
+    margin-top: 1em;
   } 
-  
+  .link-flash {
+    margin-bottom: 4em; 
+  }
 }

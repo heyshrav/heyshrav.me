@@ -13,17 +13,17 @@ function ContactSection() {
                         <div className="col-lg-4 mt-4 contact__body__wrap">
                             <div className=" ">
                                 <h3 className="text-white fs-2 fw-bold">Let's talk over a cup of coffee?</h3>
-                                <p className="text-muted">Or, if you prefer, you can send us an email at <a href="mailto:heyshrav@gmail.com">heyshrav@gmail.com</a></p>
+                                <p className="text-muted">Or, if you prefer, you can directly message me on <a href="https://linkedin.com/in/heyshrav" className="  p-0 text-white text-left ">LinkedIn</a></p>
                             </div>
                         </div>
 
                         <div className="col-lg-4  contact__button__wrap">
                             <div className="d-flex flex-column justify-content-evenly">
-                                <h5 className="text-muted"
+                                <h5 className="text-muted fw-light"
                                 >Reach out at</h5>
-                                <h5 className="text-white">heyshrav@gmail.com</h5>
-                                <span> ------ OR ------ </span>
-                                <button className="contact__button mt-4">Let's Talk</button>
+                                <h5 className="text-white  mb-3">heyshrav@gmail.com</h5>
+                                <span className="fw-light text-muted">or just fill the contact form! xD</span>
+                                <button className="contact__button mt-3 fw-bold  ">Let's Talk</button>
                             </div>
 
                         </div>

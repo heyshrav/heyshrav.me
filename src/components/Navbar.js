@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Navbar() {
     return (
-        <div className="fixed-top">
+        <div className="fixed-top navbar__wrap">
             <div class="collapse" id="navbarToggle">
                 <div class="bg-dark p-4 d-flex flex-column align-items-center justify-content-center">
                     
