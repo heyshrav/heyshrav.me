@@ -2,9 +2,9 @@ import React from 'react'
 
 function AboutSection() {
     return (
-        <div className="section mt-4 pt-4">
-            <div className="section__header container">
-                <h2 className="section__title d-flex flex-row-reverse">
+        <div className="about__section mt-4 pt-4">
+            <div className="about__section__header container">
+                <h2 className="about__section__title d-flex flex-row-reverse">
                     About me
                 </h2>
             </div>
@@ -12,21 +12,19 @@ function AboutSection() {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-6 p-4 d-flex flex-column justify-content-evenly">
-                            <div className="d-flex flex-row justify-content-evenly align-items-center">
+                            <div className="d-flex  flex-row justify-content-between align-items-center">
                                 <a href="https://heyshrav.com/assets/BS_Shravan_Resume.pdf" className="section__card about__card">
-                                    <i class="bi   bi-file-text-fill"></i>
+                                    <i class="bi bi-file-text-fill"></i>
                                     <div className="fs-4 fw-bolder">
                                         Open Résumé
                                     </div>
                                 </a>
-                                <span class="d-inline-block " tabindex="0" data-bs-toggle="tooltip" title="Disabled tooltip">
-                                <button className=" btn about__card section__card" disabled>
+                                  <a className=" mx-auto  about__card section__card" >
                                     <i class="bi bi-file-text-fill"></i>
                                     <div className="fs-6">
                                         Read blog
                                     </div>
-                                </button>
-                                </span>
+                                </a> 
                             </div>
 
                         </div>
