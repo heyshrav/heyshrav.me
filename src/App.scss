@@ -267,7 +267,17 @@ body {
   .about__section {
     padding: 1.5em;
   }
-  .about__card {
-    padding: 2em;
+
+  .about__card__wrap {
+    display: block;
   }
+
+  .about__card {
+    padding: 3em 2em; 
+    margin: 1em;  
+    margin-top: -1em; 
+    margin-left: 0em;
+    font-size: 0.7em;
+  } 
+  
 }

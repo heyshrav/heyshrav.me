@@ -12,7 +12,7 @@ function AboutSection() {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-6 p-4 d-flex flex-column justify-content-evenly">
-                            <div className="d-flex  flex-row justify-content-between align-items-center">
+                            <div className="d-flex about__card__wrap flex-row justify-content-between align-items-center">
                                 <a href="https://heyshrav.com/assets/BS_Shravan_Resume.pdf" className="section__card about__card">
                                     <i class="bi bi-file-text-fill"></i>
                                     <div className="fs-4 fw-bolder">
