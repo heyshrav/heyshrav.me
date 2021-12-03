@@ -3,7 +3,8 @@ import React from 'react'
 function Header() {
     var profileImg = "https://i.ibb.co/VVFMJ3r/shravan-Bhat-Profile-Picture-2.png"
     return (
-        <div className="header container text-center justify-content-center d-flex flex-column align-items-center">
+        <div className="bg-light-primary pt-5 pb-5">
+        <div className="header  pb-5 container text-center justify-content-center d-flex flex-column align-items-center">
             <div className="header__image  mx-auto">
                 <img src={profileImg} alt="shravan-Bhat-masthead" className="img-fluid img-responsive " />
             </div>
@@ -23,6 +24,7 @@ function Header() {
                     <a href="/">Connect with me</a>
                 </div>
             </div>
+        </div>
         </div>
     )
 }

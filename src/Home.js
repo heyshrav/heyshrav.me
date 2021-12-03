@@ -7,9 +7,9 @@ import WorkSection from './components/WorkSection'
 function Home() {
   return (
     <div>
-      <Header />
-      <WorkSection />
-      <AboutSection />
+      <Header /> 
+      <WorkSection /> 
+      <AboutSection /> 
       <ContactSection />
       </div>
   )

@@ -2,14 +2,14 @@ import React from 'react'
 
 function AboutSection() {
     return (
-        <div className="about__section mt-4 pt-4">
+        <div className="about__section pt-5 "> 
             <div className="about__section__header container">
-                <h2 className="section__title d-flex flex-row-reverse">
+                <h2 className="section__title">
                     About me
                 </h2>
             </div>
             <div className="mt-4 pt-4">
-                <div className="container ">
+                <div className="container">
                     <div className="row ">
 
                         <div className="col-md-4 about__card fs-3">

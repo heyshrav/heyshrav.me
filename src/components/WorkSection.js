@@ -2,12 +2,15 @@ import React from 'react'
 
 function WorkSection() {
     return (
-        <div className="section mt-5 pt-5">
-            <div className="section__header container">
+        <div className="section py-5">
+           
+
+            <div className="section__header mt-4 container">
 
                 <h2 className="section__title">
                     Explore my work
                 </h2>
+                <p className="text-center text-muted mx-auto mt-4 w-25">Clean interface designs, web projects, photography work and case studies.</p>
             </div>
             <div className="mt-4 p-4">
                 <div className="container">
