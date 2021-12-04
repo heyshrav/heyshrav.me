@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Navbar() {
     return (
-        <div className="fixed-top py-2 bg-light-secondary shadow-none d-none d-sm-block navbar__wrap">
+        <div className=" py-1 bg-light-secondary  d-none d-sm-block navbar__wrap">
             <div class="collapse" id="navbarToggle">
                 <div class="bg-dark p-5 d-flex flex-column align-items-center justify-content-center">
 
