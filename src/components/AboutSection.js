@@ -2,7 +2,7 @@ import React from 'react'
 
 function AboutSection() {
     return (
-        <div className="about__section pt-5 "> 
+        <div className="about__section pt-5 " id="about"> 
             <div className="about__section__header container">
                 <h2 className="section__title">
                     About me

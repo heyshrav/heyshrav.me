@@ -2,7 +2,7 @@ import React from 'react'
 function ContactSection() {
     return (
         <div>
-            <div className="container ">
+            <div className="container " id="contact">
                 <div className="row contact__card"> 
                         <div className="col-lg-4">
                             <div className="d-flex justify-content-center contact__image">

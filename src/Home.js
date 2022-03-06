@@ -8,6 +8,7 @@ function Home() {
   return (
     <div>
       <Header /> 
+      <hr/>
       <WorkSection /> 
       <AboutSection /> 
       <ContactSection />

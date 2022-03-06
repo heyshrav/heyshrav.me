@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=B612:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @font-face {
@@ -26,9 +26,16 @@
   src: url(/assets/webfonts/PlusJakartaSans-ExtraBold.woff2);
   font-weight: 700;
 }
-$bg: rgb(249, 246, 255);
-$primary: rgb(11, 0, 41);
+
+// main color codes
+$bg: rgb(255, 255, 255);
+$bg-light: rgb(236, 238, 239);
+$bg-dark: rgb(25, 25, 25);
+$bg-dark-light: rgb(201, 201, 201);
+$primary: rgb(0, 7, 52);
 $accent: rgb(69, 72, 255);
+
+
 $bg-light-primary: rgb(255, 255, 255);
 $bg-light-secondary:rgb(249, 246, 255);
 @mixin hoverAnimation {
@@ -53,9 +60,14 @@ html {
 * {
   margin: 0;
   font-weight: 300;
-  font-family: "custFont1";
+  font-family: 'Inter', sans-serif;
 }
 
+hr {
+  background-color: rgb(173, 173, 173);
+  padding: 0;
+  margin: 0;
+}
 .lift-hover {
   transition: all cubic-bezier(0.47, 0, 0.745, 0.715) 0.3s;
 }
@@ -102,7 +114,7 @@ body {
   font-size: 3.5em;
   line-height: 105.5%;
   font-weight: 700;
-  max-width: 40%;
+  max-width: 45%;
 }
 
 .header__subheader {
@@ -297,6 +309,11 @@ body {
 }
 
 // media queries for responsiveness 
+#work {
+  background-color: #121427; 
+  color: #f8f8ff !important;
+}
+
 
 @media all and (min-width: 1025px) and (max-width: 1200px) {
   .header__masthead {
