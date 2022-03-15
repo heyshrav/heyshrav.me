@@ -2,8 +2,8 @@ import React from 'react'
 
 function WorkSection() {
     return (
-        <div className="section section__work py-5" id="work"> 
-        
+        <div className="section section__work py-5" id="work">
+
             <div className="section__header mt-4 container">
 
                 <h2 className="section__title text-white">
@@ -14,21 +14,43 @@ function WorkSection() {
             <div className="mt-4 p-4">
                 <div className="container">
                     <div className="row mb-4 mx-auto">
+                        <div className="col-md-6 order-2 col-sm-12">
+                            <img src="https://res.cloudinary.com/heyshrav/image/upload/v1639037508/heyshrav.com/images/dribble-shots-eg_xl7jts.svg" className="img-fluid" width="600px" alt="dribble-shots-eg" />
+
+                        </div>
+                        <div className="col-md-6 order-1 col-sm-12">
+                            <div className="d-flex flex-column p-4">
+                               
+                                <h3 className='text-white'>Project Title</h3>
+                                <div className='d-flex py-2'>
+                                 <div className='tag__pill_dark'>Category 1</div>   
+                                 <div className='tag__pill_dark mx-2'>Category 2</div>   
+                                 <div className='tag__pill_dark '>Category 3</div>   
+                                </div>
+                                <p className="text-muted py-2">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisi vel consectetur egestas, nisi nisl aliquam nunc, eget consectetur nunc nisi eget nisl. Nulla euismod, nisi vel consectetur egestas, nisi nisl aliquam nunc eget consectetur nunc nisi eget nisl. Nulla euismod, nisi vel consectetur egestas, nisi nisl aliquam nunc, eget consectetur nunc nisi eget nisl.     
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="row mb-4 mx-auto">
                         <div className="col-md-6 col-sm-12">
                             <img src="https://res.cloudinary.com/heyshrav/image/upload/v1639037508/heyshrav.com/images/dribble-shots-eg_xl7jts.svg" className="img-fluid" width="600px" alt="dribble-shots-eg" />
 
                         </div>
-                        <div className="col-md-6 col-sm-12">
+                        <div className=" col-md-6 col-sm-12">
                             <div className="d-flex flex-column p-4">
-                            <h3 className='text-white'>Dribbble Shots</h3>
-                            <p className="text-muted py-1">
-                            Check out some of my latest Dribbble shots. 
-                            </p> 
+                                <h3 className='text-white'>Project Title</h3>
+                                <p className="text-muted py-1">
+                                    Check out some of my latest Dribbble shots.
+                                </p>
                             </div>
                         </div>
                     </div>
-
-                    <div className="row d-flex pt-5 flex-row justify-content-evenly">
+                    <div class="row no-gutters justify-content-between">
+                        <div class="col">.col-6 .col-md-4</div>
+                    </div>
+                    {/* <div className="row d-flex pt-5 flex-row justify-content-evenly">
 
                         <div className="col-lg-4 mb-4 section__card d-flex flex-column  align-items-center">
                             <div>
@@ -70,7 +92,7 @@ function WorkSection() {
                             </div>
                         </div>
 
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>

@@ -321,6 +321,14 @@ body {
   color: #f8f8ff !important;
 }
 
+.tag__pill_dark {
+  background-color: hsla(0, 0%, 96.5%, 0.1);
+  color: $bg-dark-light;
+  padding: 0.4em 1em;
+  font-size: small;
+  border-radius: 100px;
+  font-weight: 400; 
+}
 
 @media all and (min-width: 1025px) and (max-width: 1200px) {
   .header__masthead {
