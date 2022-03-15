@@ -19,7 +19,7 @@ function WorkSection() {
 
                         </div>
                         <div className="col-lg-6  order-lg-1 col-12">
-                            <div className="d-flex flex-column align-items-start pt-2">
+                            <div className="d-flex flex-column align-items-start px-2 px-lg-0  pt-4">
                                
                                 <h3 className='text-white'>Project Title</h3>
                                 <div className='d-flex flex-wrap py-2'>
@@ -36,13 +36,13 @@ function WorkSection() {
                             </div>
                         </div>
                     </div> 
-                    <div className="row mb-4  py-2">
-                        <div className="col-lg-6  order-md-1 col-12">
+                    <div className="row mb-4 py-2 align-items-center">
+                        <div className="col-lg-6 order-lg-1 col-12">
                             <img src="https://res.cloudinary.com/heyshrav/image/upload/v1639037508/heyshrav.com/images/dribble-shots-eg_xl7jts.svg" className="img-fluid" max-width="600px" alt="dribble-shots-eg" />
 
                         </div>
-                        <div className="col-lg-6  order-md-2 col-12">
-                            <div className="d-flex flex-column  pt-2">
+                        <div className="col-lg-6  order-lg-2 col-12">
+                            <div className="d-flex flex-column align-items-start px-2 px-lg-0 pt-4">
                                
                                 <h3 className='text-white'>Project Title</h3>
                                 <div className='d-flex flex-wrap py-2'>
@@ -51,7 +51,7 @@ function WorkSection() {
                                  <div className='tag__pill_dark '>Category 3</div>   
                                 </div>
                                 <p className="text-muted py-2 truncate-text">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisi vel consectetur egestas, nisi nisl aliquam nunc, eget consectetur nunc nisi eget nisl. Nulla euismod, nisi vel consectetur egestas, nisi nisl aliquam nunc eget consectetur nunc nisi eget nisl. Nulla euismod, nisi vel consectetur egestas, nisi nisl aliquam nunc, eget consectetur nunc nisi eget nisl.       
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisi vel consectetur egestas, nisi nisl aliquam nunc, eget consectetur nunc nisi eget nisl. Nulla euismod, nisi vel consectetur egestas, nisi nisl aliquam nunc eget consectetur nunc nisi eget nisl. Nulla euismod, nisi vel consectetur egestas, nisi nisl aliquam nunc, eget consectetur nunc nisi eget nisl.         
                                 </p>
                                 <div className="mt-auto">
                                 <a href="#" className="btn btn-outline-light">View Project</a>
