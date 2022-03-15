@@ -13,40 +13,52 @@ function WorkSection() {
             </div>
             <div className="mt-4 p-4">
                 <div className="container">
-                    <div className="row mb-4 mx-auto">
-                        <div className="col-md-6 order-2 col-sm-12">
-                            <img src="https://res.cloudinary.com/heyshrav/image/upload/v1639037508/heyshrav.com/images/dribble-shots-eg_xl7jts.svg" className="img-fluid" width="600px" alt="dribble-shots-eg" />
+                    <div className="row mb-4 py-2 align-items-center">
+                        <div className="col-lg-6  order-lg-2 col-12">
+                            <img src="https://res.cloudinary.com/heyshrav/image/upload/v1639037508/heyshrav.com/images/dribble-shots-eg_xl7jts.svg" className="img-fluid" max-width="600px" alt="dribble-shots-eg" />
 
                         </div>
-                        <div className="col-md-6 order-1 col-sm-12">
-                            <div className="d-flex flex-column p-4">
+                        <div className="col-lg-6  order-lg-1 col-12">
+                            <div className="d-flex flex-column align-items-start pt-2">
                                
                                 <h3 className='text-white'>Project Title</h3>
-                                <div className='d-flex py-2'>
-                                 <div className='tag__pill_dark'>Category 1</div>   
+                                <div className='d-flex flex-wrap py-2'>
+                                 <div className='tag__pill_dark '>Category 1</div>   
                                  <div className='tag__pill_dark mx-2'>Category 2</div>   
                                  <div className='tag__pill_dark '>Category 3</div>   
                                 </div>
-                                <p className="text-muted py-2">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisi vel consectetur egestas, nisi nisl aliquam nunc, eget consectetur nunc nisi eget nisl. Nulla euismod, nisi vel consectetur egestas, nisi nisl aliquam nunc eget consectetur nunc nisi eget nisl. Nulla euismod, nisi vel consectetur egestas, nisi nisl aliquam nunc, eget consectetur nunc nisi eget nisl.     
+                                <p className="text-muted py-2 truncate-text">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisi vel consectetur egestas, nisi nisl aliquam nunc, eget consectetur nunc nisi eget nisl. Nulla euismod, nisi vel consectetur egestas, nisi nisl aliquam nunc eget consectetur nunc nisi eget nisl. Nulla euismod, nisi vel consectetur egestas, nisi nisl aliquam nunc, eget consectetur nunc nisi eget nisl.         
                                 </p>
+                                <div className="mt-auto">
+                                <a href="#" className="btn btn-outline-light">View Project</a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div className="row mb-4 mx-auto">
-                        <div className="col-md-6 col-sm-12">
-                            <img src="https://res.cloudinary.com/heyshrav/image/upload/v1639037508/heyshrav.com/images/dribble-shots-eg_xl7jts.svg" className="img-fluid" width="600px" alt="dribble-shots-eg" />
+                    </div> 
+                    <div className="row mb-4  py-2">
+                        <div className="col-lg-6  order-md-1 col-12">
+                            <img src="https://res.cloudinary.com/heyshrav/image/upload/v1639037508/heyshrav.com/images/dribble-shots-eg_xl7jts.svg" className="img-fluid" max-width="600px" alt="dribble-shots-eg" />
 
                         </div>
-                        <div className=" col-md-6 col-sm-12">
-                            <div className="d-flex flex-column p-4">
+                        <div className="col-lg-6  order-md-2 col-12">
+                            <div className="d-flex flex-column  pt-2">
+                               
                                 <h3 className='text-white'>Project Title</h3>
-                                <p className="text-muted py-1">
-                                    Check out some of my latest Dribbble shots.
+                                <div className='d-flex flex-wrap py-2'>
+                                 <div className='tag__pill_dark '>Category 1</div>   
+                                 <div className='tag__pill_dark mx-2'>Category 2</div>   
+                                 <div className='tag__pill_dark '>Category 3</div>   
+                                </div>
+                                <p className="text-muted py-2 truncate-text">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisi vel consectetur egestas, nisi nisl aliquam nunc, eget consectetur nunc nisi eget nisl. Nulla euismod, nisi vel consectetur egestas, nisi nisl aliquam nunc eget consectetur nunc nisi eget nisl. Nulla euismod, nisi vel consectetur egestas, nisi nisl aliquam nunc, eget consectetur nunc nisi eget nisl.       
                                 </p>
+                                <div className="mt-auto">
+                                <a href="#" className="btn btn-outline-light">View Project</a>
+                                </div>
                             </div>
                         </div>
-                    </div>
+                    </div> 
                     <div class="row no-gutters justify-content-between">
                         <div class="col">.col-6 .col-md-4</div>
                     </div>
